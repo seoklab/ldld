@@ -158,7 +158,7 @@ are available.
 
 > what is "deep learning?"
 
-- Handout: **TBA**
+- [Handout](handouts/README.md)
 - [Notebook](notebooks/0-idl.ipynb)
 
 ### 1 &nbsp; Multilayer Perceptrons (MLP)
@@ -166,28 +166,28 @@ are available.
 > a.k.a. fully connected layers, linear layers, affine layers, feed-forward
 > networks, and ...
 
-- Handout: **TBA**
+- [Handout](handouts/1-mlp.pptx)
 - [Notebook](notebooks/1-mlp.ipynb)
 
 ### 2 &nbsp; Convolutional Neural Network (CNN)
 
 > not to be confused with the prominent American news network.
 
-- Handout: **TBA**
+- [Handout](handouts/2-cnn.pptx)
 - [Notebook](notebooks/2-cnn.ipynb)
 
 ### 3 &nbsp; Recurrent Neural Networks (RNN)
 
 > including: Long-Short Term Memory (LSTM), Gated Recurrent Unit (GRU), ...
 
-- Handout: **TBA**
+- [Handout](handouts/3-rnn.pptx)
 - [Notebook](notebooks/3-rnn.ipynb)
 
 ### 4 &nbsp; Transformers
 
 > Attention!
 
-- Handout: **TBA**
+- [Handout](handouts/4-trs.pptx)
 - [Notebook](notebooks/4-trs.ipynb)
 
 ### 5 &nbsp; Graph Neural Networks (GNN)
@@ -196,7 +196,7 @@ are available.
 > neural networks (MPNN), graph transformers, etc., are all included in this
 > category.
 
-- Handout: **TBA**
+- [Handout](handouts/5-gnn.pptx)
 - [Notebook](notebooks/5-gnn.ipynb)
 
 ## Further Reading
