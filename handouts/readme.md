@@ -3,6 +3,17 @@
 ## Deep Learning 공부에 앞서 ...
 <img width="60%" src=https://user-images.githubusercontent.com/80088917/148338597-397b9910-26df-4bdd-8821-5c069576182c.png>
 
+- CNN(Convolutional Neural Network)
+- RNN(Recurrent Neural Network)
+- ResNet(Residual Neural Network)
+- GAN(Generative Adversarial neural Network)
+- Reinforcement Learning
+- Transformer(with Attention)
+ - BERT(Bidirectional Encoder Representations from Transformers)
+ - GPT(Generative Pre-trained Transformer)
+ - CLIP(Contrastive Language–Image Pre-training) --- vision transformer
+
+
 ### Deep Learning이 주목받게 된 이유    
 
 Deep Learning은 **복잡한** 문제를 풀기 위하여 사용한다.    \
