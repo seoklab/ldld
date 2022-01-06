@@ -17,8 +17,8 @@ SVM, MLP로 풀 수 있는 문제들을 Deep Learning으로 풀게 된다면 **O
 과다학습(overfitting)하면 일반화 성능이 저하되는 문제가 발생
 <img width = "70%" src = https://user-images.githubusercontent.com/80088917/148343166-6ec822c4-dacd-4a8d-80f5-59e2fece9cd3.png>
 <img width = "50%" src = https://user-images.githubusercontent.com/80088917/148343196-ae2dfefe-5062-4db2-8427-9d60055866d7.png>
-<img width = "80%" src =https://user-images.githubusercontent.com/80088917/148343828-3f5d98db-281d-438d-ad86-223d187d207f.png>
-<img width = "80%" src =https://user-images.githubusercontent.com/80088917/148343726-813d2289-6f76-4d4e-bad9-86596339086a.png>
+<img width = "60%" src =https://user-images.githubusercontent.com/80088917/148343828-3f5d98db-281d-438d-ad86-223d187d207f.png>
+<img width = "60%" src =https://user-images.githubusercontent.com/80088917/148343726-813d2289-6f76-4d4e-bad9-86596339086a.png>
 
 ### Discriminative and Generative model(변별모델과 생성모델)
-![image](https://user-images.githubusercontent.com/80088917/148343749-311bfb42-4207-4676-9311-6c582df156d5.png)
+<img width = "60%" src =https://user-images.githubusercontent.com/80088917/148343749-311bfb42-4207-4676-9311-6c582df156d5.png>
