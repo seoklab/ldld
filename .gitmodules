@@ -1,0 +1,3 @@
+[submodule "seoklab"]
+	path = seoklab
+	url = git@github.com:seoklab/ldld-internal.git
