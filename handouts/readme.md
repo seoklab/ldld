@@ -10,7 +10,7 @@
 - Reinforcement Learning
 - Transformer(with Attention)
  - BERT(Bidirectional Encoder Representations from Transformers)
- - GPT(Generative Pre-trained Transformer)
+ - GPT(Generative Pre-trained Transformer) ex. DALL-E
  - CLIP(Contrastive Language–Image Pre-training) --- vision transformer
  - MLP mixer, etc
 
