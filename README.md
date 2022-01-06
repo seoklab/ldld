@@ -102,7 +102,7 @@ There are two options just waiting for your choice:
 ### Seoklab-specific setup
 
 If you're a seoklab member, please read
-[the preface](seoklab/docs/before_starting.md).
+[the preface](https://github.com/seoklab/ldld-internal/blob/main/docs/before_starting.md).
 
 ## Prerequisites
 
