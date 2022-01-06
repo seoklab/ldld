@@ -27,8 +27,8 @@ SVM, MLP로 풀 수 있는 문제들을 Deep Learning으로 풀게 된다면 **O
 주어진 데이터나 문제에 대해서 가장 최적의 모델 복잡도는 무엇일까(**model selection problem**)   \
 모델 복잡도(model complexity):   데이터나 문제의 복잡도에 비해 모델의 복잡도가 크면, 훈련데이터에 대한 정확도가 우수하나,   \
 과다학습(overfitting)하면 일반화 성능이 저하되는 문제가 발생
-<img width = "70%" src = https://user-images.githubusercontent.com/80088917/148343166-6ec822c4-dacd-4a8d-80f5-59e2fece9cd3.png>
-<img width = "50%" src = https://user-images.githubusercontent.com/80088917/148343196-ae2dfefe-5062-4db2-8427-9d60055866d7.png>
+<img width = "60%" src = https://user-images.githubusercontent.com/80088917/148343166-6ec822c4-dacd-4a8d-80f5-59e2fece9cd3.png>
+<img width = "45%" src = https://user-images.githubusercontent.com/80088917/148343196-ae2dfefe-5062-4db2-8427-9d60055866d7.png>
 <img width = "60%" src =https://user-images.githubusercontent.com/80088917/148343828-3f5d98db-281d-438d-ad86-223d187d207f.png>
 <img width = "60%" src =https://user-images.githubusercontent.com/80088917/148343726-813d2289-6f76-4d4e-bad9-86596339086a.png>
 
