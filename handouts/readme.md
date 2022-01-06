@@ -12,7 +12,7 @@
  - BERT(Bidirectional Encoder Representations from Transformers)
  - GPT(Generative Pre-trained Transformer)
  - CLIP(Contrastive Language–Image Pre-training) --- vision transformer
-
+ - MLP mixer, etc
 
 ### Deep Learning이 주목받게 된 이유    
 
