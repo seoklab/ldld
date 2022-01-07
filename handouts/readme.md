@@ -14,7 +14,7 @@
  - CLIP(Contrastive Language–Image Pre-training) --- vision transformer
  - MLP mixer, etc   \
 **이 중에서 CNN과 RNN, 그리고 alphafold의 co-evolution information에 유용하게 사용되는 transformer에 대해서 알아봅시다**   \
-**(추가) alphafold2를 비롯해 많은 연구에 쓰이는 GNN(Graph Neural Network)에 대해서도 
+**(추가) alphafold2를 비롯해 많은 연구에 쓰이는 GNN(Graph Neural Network)에 대해서도 짚어봅시다**
 
 ### Deep Learning이 주목받게 된 이유    
 
