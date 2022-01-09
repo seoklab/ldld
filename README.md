@@ -63,13 +63,14 @@ Type this command, which will be your friend while working in this repo. Type it
 **every** time before starting a jupyter session. `(pytorch)` will then appear
 in front of the
 [prompt](https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt).
-If you're using vscode (see [the following section](#development-setup)), choose
-the environment named `pytorch` while starting the kernel. The editor will open
-a dialog for the selection.
 
 ```bash
 conda activate pytorch
 ```
+
+If you're using vscode (see [the following section](#development-setup)), choose
+the environment named `pytorch` while starting the kernel. The editor will open
+a dialog for the selection.
 
 ### Development setup
 
