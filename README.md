@@ -83,7 +83,8 @@ There are two options just waiting for your choice:
 
    - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
    - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-   - [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+   - [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
      (for remote development<sup id="a3">[3](#f3)</sup>)
 
    and also take a look at these optional but useful extensions:
