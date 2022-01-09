@@ -9,6 +9,7 @@
   - [Seoklab-specific setup](#seoklab-specific-setup)
 - [Prerequisites](#prerequisites)
 - [Main Tutorials](#main-tutorials)
+  - [0 &nbsp; Introduction to Deep Learning](#0--introduction-to-deep-learning)
   - [1 &nbsp; Multilayer Perceptrons (MLP)](#1--multilayer-perceptrons-mlp)
   - [2 &nbsp; Convolutional Neural Network (CNN)](#2--convolutional-neural-network-cnn)
   - [3 &nbsp; Recurrent Neural Networks (RNN)](#3--recurrent-neural-networks-rnn)
@@ -34,7 +35,7 @@ of the clusters<sup id="a1">[1](#f1)</sup>. Then clone this repository by:
 git clone https://github.com/seoklab/ldld
 ```
 
-Also don't forget to change the working directory.
+Also, don't forget to change the working directory.
 
 ```bash
 cd ldld
@@ -48,9 +49,9 @@ manager is that it takes _some_ time to download the required packages (at the
 first time). Once the script does its job, you're almost done, at least the
 "hard" (i.e., terminal) part!
 
-**Caution for advanced users**: This command will try to create a new
-environment named `pytorch`, and do nothing if it exists. Please check for
-existence, and remove it or check the packages in the original one against the
+**Caution for advanced users**: This command will create a new environment named
+`pytorch` and do nothing if it exists. Please check for existence and remove it
+or check the packages in the original one against the
 [environment file](environment.yml).
 
 ```bash
@@ -61,10 +62,10 @@ source "$HOME/.$(basename "$SHELL")rc"
 Type this command, which will be your friend while working in this repo. Type it
 **every** time before starting a jupyter session. `(pytorch)` will then appear
 in front of the
-[prompt](https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt) If
-you're using vscode (see [the following section](#development-setup)), then
-choose the environment named `pytorch` while starting the kernel. The editor
-will open a dialog for the selection.
+[prompt](https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt).
+If you're using vscode (see [the following section](#development-setup)), choose
+the environment named `pytorch` while starting the kernel. The editor will open
+a dialog for the selection.
 
 ```bash
 conda activate pytorch
@@ -84,7 +85,7 @@ There are two options just waiting for your choice:
    - [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
      (for remote development<sup id="a3">[3](#f3)</sup>)
 
-   and also take a look at these optional, but useful extensions:
+   and also take a look at these optional but useful extensions:
 
    - For a powerful language server:
      [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
@@ -97,7 +98,7 @@ There are two options just waiting for your choice:
    the web browser, then connect to
    [`http://localhost:8888`](http://localhost:8888)<sup id="a5">[5](#f5)</sup>.
    Local port forwarding (`ssh -L8888:localhost:8888`) might be required if the
-   jupyter kernel is running on a remote machine.
+   jupyter kernel runs on a remote machine.
 
 ### Seoklab-specific setup
 
@@ -113,14 +114,21 @@ If you're a seoklab member, please read
 - Python programming: refer to the related
   [lecture](http://seoklab.org/forum/index.php?topic=5613).
 
-**NOTE**: Currently, the lectures are only for the lab members. Only Korean
-versions are available.
+**NOTE**: Currently, the lectures are only for lab members. Only Korean versions
+are available.
 
 ## Main Tutorials
 
 **TIP**: Text too big in vscode? Get to
-`Settings - Notebook - Markup: Font Size` and change it to the desired value.
-`15` is a good start.
+`Settings - Notebook - Markup: Font Size` and change it to the desired value
+(`15` is a good start).
+
+### 0 &nbsp; Introduction to Deep Learning
+
+> what is "deep learning?"
+
+- Handout: **TBA**
+- [Notebook](notebooks/0-idl.ipynb)
 
 ### 1 &nbsp; Multilayer Perceptrons (MLP)
 
