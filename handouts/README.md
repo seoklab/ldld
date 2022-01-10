@@ -55,3 +55,7 @@ selection problem**)?
 ### Discriminative and Generative model(변별모델과 생성모델)
 
 <img width = "60%" src =https://user-images.githubusercontent.com/80088917/148343749-311bfb42-4207-4676-9311-6c582df156d5.png>
+
+기타 참고사항
+- Over 200 of the Best Machine Learning, NLP, and Python Tutorials — 2018 Edition, https://medium.com/machine-learning-in-practice/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc
+
