@@ -13,7 +13,7 @@
 - BERT(Bidirectional Encoder Representations from Transformers)
 - GPT(Generative Pre-trained Transformer) ex. DALL-E
 - CLIP(Contrastive Language–Image Pre-training) --- vision transformer
-- MLP mixer, etc.
+- MLP mixer, VAE(Variational AutoEncoder), etc.
 
 **이 중에서 CNN과 RNN, 그리고 alphafold의 co-evolution information에 유용하게
 사용되는 transformer에 대해서 알아봅시다.**
