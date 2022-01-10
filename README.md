@@ -50,8 +50,8 @@ first time). Once the script does its job, you're almost done, at least the
 "hard" (i.e., terminal) part!
 
 **Caution for advanced users**: This command will create a new environment named
-`pytorch` and do nothing if it exists. Please check for existence and remove it
-or check the packages in the original one against the
+`ldld` and do nothing if it exists. Please check for existence and remove it or
+check the packages in the original one against the
 [environment file](environment.yml).
 
 ```bash
@@ -60,17 +60,17 @@ source "$HOME/.$(basename "$SHELL")rc"
 ```
 
 Type this command, which will be your friend while working in this repo. Type it
-**every** time before starting a jupyter session. `(pytorch)` will then appear
-in front of the
+**every** time before starting a jupyter session. `(ldld)` will then appear in
+front of the
 [prompt](https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt).
 
 ```bash
-conda activate pytorch
+conda activate ldld
 ```
 
 If you're using vscode (see [the following section](#development-setup)), choose
-the environment named `pytorch` while starting the kernel. The editor will open
-a dialog for the selection.
+the environment named `ldld` while starting the kernel. The editor will open a
+dialog for the selection.
 
 ### Development setup
 

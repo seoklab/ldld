@@ -45,14 +45,14 @@ else
 fi
 
 # Update and create environment
-if conda env list | grep -Eq "^pytorch\b"; then
-	echo "pytorch is already installed. Skipping."
+if conda env list | grep -Eq "^ldld\b"; then
+	echo "ldld is already installed. Skipping."
 else
 	conda update -yq conda -n base
 	conda env create -f "$(dirname "$0")/../environment.yml" \
-		-n pytorch --no-default-packages -q
+		-n ldld --no-default-packages -q
 
-	cat >>"${CONDA_PREFIX}/envs/pytorch/.condarc" <<-EOM
+	cat >>"${CONDA_PREFIX}/envs/ldld/.condarc" <<-EOM
 		channels:
 		  - dglteam
 		  - pytorch-lts
@@ -60,7 +60,7 @@ else
 		  - defaults
 	EOM
 
-	cat >>"${CONDA_PREFIX}/envs/pytorch/conda-meta/pinned" <<-EOM
+	cat >>"${CONDA_PREFIX}/envs/ldld/conda-meta/pinned" <<-EOM
 		python 3.9.*
 		pytorch 1.8.*
 		cudatoolkit 11.1.*
@@ -68,5 +68,5 @@ else
 fi
 
 # Check that the environment is working
-. "${CONDA_PREFIX}/bin/activate" pytorch
+. "${CONDA_PREFIX}/bin/activate" ldld
 command -v python
