@@ -56,8 +56,6 @@ selection problem**)?
 
 <img width = "60%" src =https://user-images.githubusercontent.com/80088917/148343749-311bfb42-4207-4676-9311-6c582df156d5.png>
 
-<img width = "60%" src = https://user-images.githubusercontent.com/80088917/148714201-c3500b71-d0de-4c41-aae6-7e3d399775fe.png>
-
 기타 참고사항
 - Over 200 of the Best Machine Learning, NLP, and Python Tutorials — 2018 Edition, https://medium.com/machine-learning-in-practice/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc
 
