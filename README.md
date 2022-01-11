@@ -134,7 +134,8 @@ are available.
 
 ### 1 &nbsp; Multilayer Perceptrons (MLP)
 
-> a.k.a. fully connected layers, linear layers, feed-forward networks, ...
+> a.k.a. fully connected layers, linear layers, affine layers, feed-forward
+> networks, and ...
 
 - Handout: **TBA**
 - [Notebook](notebooks/1-mlp.ipynb)
