@@ -32,7 +32,7 @@ Open terminal on a Linux based system. For seoklab members, you may ssh into one
 of the clusters<sup id="a1">[1](#f1)</sup>. Then clone this repository by:
 
 ```bash
-git clone https://github.com/seoklab/ldld
+git clone git@github.com:seoklab/ldld.git
 ```
 
 Also, don't forget to change the working directory.
