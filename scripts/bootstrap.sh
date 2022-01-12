@@ -1,5 +1,12 @@
 #!/bin/bash
 
+set -i
+
+. /etc/profile
+. ~/.profile
+. /etc/bash.bashrc
+. ~/.bashrc
+
 set -e
 
 if ! [[ $(uname -s) =~ .*Linux.* ]]; then
@@ -22,7 +29,6 @@ else
 	set -u
 
 	unset PYTHONPATH
-	user_shell="$(basename "$SHELL")"
 	conda_prefix="$HOME/miniforge3"
 
 	# Download miniforge3 and install
@@ -41,7 +47,7 @@ else
 
 	# Init conda
 	. "${conda_prefix}/bin/activate"
-	conda init "${user_shell}"
+	conda init --all
 fi
 
 # Update and create environment
@@ -69,4 +75,7 @@ fi
 
 # Check that the environment is working
 . "${CONDA_PREFIX}/bin/activate" ldld
-command -v python
+# Install jupyter notebook
+if ! ( pip list --format=freeze | cut -d'=' -f 1 | grep -q '^jupyter$' ); then
+	pip install -U jupyter
+fi

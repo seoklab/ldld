@@ -4,9 +4,11 @@
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
+  - [Cloning this repo](#cloning-this-repo)
   - [System setup](#system-setup)
+    - [About conda](#about-conda)
   - [Development setup](#development-setup)
-  - [Seoklab-specific setup](#seoklab-specific-setup)
+  - [Environment _activation_](#environment-activation)
 - [Prerequisites](#prerequisites)
 - [Main Tutorials](#main-tutorials)
   - [0 &nbsp; Introduction to Deep Learning](#0--introduction-to-deep-learning)
@@ -26,10 +28,10 @@ Let's learn Deep Learning deeply!
 
 ## Getting Started
 
-### System setup
+### Cloning this repo
 
-Open terminal on a Linux based system. For seoklab members, you may ssh into one
-of the clusters<sup id="a1">[1](#f1)</sup>. Then clone this repository by:
+Open terminal on a UNIX-like system (Linux, macOS, etc.). Then clone this
+repository by:
 
 ```bash
 git clone git@github.com:seoklab/ldld.git
@@ -41,36 +43,49 @@ Also, don't forget to change the working directory.
 cd ldld
 ```
 
-Run this command to install [`conda`](https://conda.io) and setup an
-`environment`<sup id="a2">[2](#f2)</sup>, which will be used throughout this
-repo. `conda` helps us manage python packages much easier. You'd love it as soon
-as you get into the "real world" Python development. One drawback of the package
-manager is that it takes _some_ time to download the required packages (at the
-first time). Once the script does its job, you're almost done, at least the
-"hard" (i.e., terminal) part!
+### System setup
 
-**Caution for advanced users**: This command will create a new environment named
-`ldld` and do nothing if it exists. Please check for existence and remove it or
-check the packages in the original one against the
+**CAUTION FOR ADVANCED USERS**: The listed commands will create a new
+environment named `ldld` and do nothing if it exists. Please check for existence
+and remove it or check the packages in the original one against the
 [environment file](environment.yml).
 
-```bash
-./scripts/bootstrap.sh
-source "$HOME/.$(basename "$SHELL")rc"
-```
+Two scripts are provided for:
 
-Type this command, which will be your friend while working in this repo. Type it
-**every** time before starting a jupyter session. `(ldld)` will then appear in
-front of the
-[prompt](https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt).
+- **Lab members**: first clone this repo on your **local machine**, and then
+  simply run the following command.
 
-```bash
-conda activate ldld
-```
+  > Don't like executing suspicious scripts on your personal computer? Please
+  > refer to
+  > [the preface](https://github.com/seoklab/ldld-internal/blob/main/docs/before_starting.md)
+  > for details.
 
-If you're using vscode (see [the following section](#development-setup)), choose
-the environment named `ldld` while starting the kernel. The editor will open a
-dialog for the selection.
+  ```bash
+  ./scripts/init_seoklab.sh
+  ```
+
+  For executing jupyter notebooks on the compute nodes, please ssh into one of
+  the clusters<sup id="a1">[1](#f1)</sup>, then
+  [clone this repo](#cloning-this-repo) again.
+
+- **Individuals**: Run this command to install [`conda`](https://conda.io) and
+  setup an _environment_, which will be used throughout this repo. Once the
+  script does its job, you're almost done, at least the "hard" (i.e., terminal)
+  part!
+
+  ```bash
+  ./scripts/bootstrap.sh
+  source "$HOME/.$(basename "$SHELL")rc"
+  ```
+
+#### About conda
+
+`conda` helps us manage python packages much easier, by creating isolated
+environments<sup id="a2">[2](#f2)</sup> for each project. You'd love it as soon
+as you get into the "real world" Python development. One drawback of the package
+manager is that it takes **some** time to download the required packages (at
+least for the first time). Both scripts will take around ~30 minutes to
+complete.
 
 ### Development setup
 
@@ -96,16 +111,30 @@ There are two options just waiting for your choice:
    - For beautiful (IMO<sup id="a4">[4](#f4)</sup>) color scheme:
      [Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)
 
+   **One extra setting left for lab members**: search vscode settings named
+   `Remote.SSH: Lockfiles in Tmp`, then check it. It is required to use vscode
+   on the compute nodes.
+
 2. Start a jupyter kernel with `$ jupyter notebook` at the project root, open
    the web browser, then connect to
    [`http://localhost:8888`](http://localhost:8888)<sup id="a5">[5](#f5)</sup>.
    Local port forwarding (`ssh -L8888:localhost:8888`) might be required if the
    jupyter kernel runs on a remote machine.
 
-### Seoklab-specific setup
+### Environment _activation_
 
-If you're a seoklab member, please read
-[the preface](https://github.com/seoklab/ldld-internal/blob/main/docs/before_starting.md).
+Type this command, which will be your friend while working in this repo. Type it
+**every** time before starting a jupyter session. `(ldld)` will then appear in
+front of the
+[prompt](https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt).
+
+```bash
+conda activate ldld
+```
+
+If you're using vscode (see [the previous section](#development-setup)), choose
+the environment named `ldld` while starting the kernel. The editor will open a
+dialog for the selection.
 
 ## Prerequisites
 

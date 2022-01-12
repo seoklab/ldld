@@ -1,20 +1,21 @@
 channels:
-- conda-forge
-- defaults
+  - conda-forge
+  - defaults
 dependencies:
-- python=3.9
-- cudatoolkit=11.1
-- pytorch-lts::pytorch=1.8
-- pytorch-lts::torchvision
-- dglteam::dgl-cuda11.1
-- jupyter
-- numpy
-- scipy
-- networkx
-- scikit-learn
-- matplotlib
-- pandas
-- seaborn
-- tqdm
-- joblib
-- openbabel
+  - conda-forge::python=3.9
+  - conda-forge::cudatoolkit=11.1
+  - pytorch-lts::pytorch=1.8
+  - pytorch-lts::torchvision
+  - dglteam::dgl-cuda11.1
+  - conda-forge::pytdc
+  - conda-forge::rdkit
+  - conda-forge::openbabel
+  - defaults::numpy
+  - defaults::scipy
+  - defaults::scikit-learn
+  - networkx
+  - matplotlib
+  - pandas
+  - seaborn
+  - tqdm
+  - joblib
