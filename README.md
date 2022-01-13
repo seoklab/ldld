@@ -158,7 +158,7 @@ are available.
 
 > what is "deep learning?"
 
-- Handout: **TBA**
+- [Handout](handouts/README.md)
 - [Notebook](notebooks/0-idl.ipynb)
 
 ### 1 &nbsp; Multilayer Perceptrons (MLP)
