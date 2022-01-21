@@ -56,9 +56,13 @@ selection problem**)?
 
 <img width = "60%" src =https://user-images.githubusercontent.com/80088917/148343749-311bfb42-4207-4676-9311-6c582df156d5.png>
 
-기타 참고사항
+### 기타 참고사항
+
 - Over 200 of the Best Machine Learning, NLP, and Python Tutorials — 2018 Edition, https://medium.com/machine-learning-in-practice/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc
-- IT와 제약바이오 융합인재 양성을 목표로 하는 Playground형 오픈 플랫폼, https://laidd.org/
-  추천 강의: 신약 개발을 위한 단백질 구조예측 및 상호작용 예측 - 서울대 석차옥 교수님
-            AI in predicting protein-ligand interaction(structure based) - KAIST 김우연 교수님
-            Graph Neural Networks for Molecular Property Prediction - GALUX 류성옥 박사님
+
+- IT와 제약바이오 융합인재 양성을 목표로 하는 Playground형 오픈 플랫폼, https://laidd.org
+  
+  추천 강의: 
+  - 신약 개발을 위한 단백질 구조예측 및 상호작용 예측 - 서울대 석차옥 교수님
+  - AI in predicting protein-ligand interaction(structure based) - KAIST 김우연 교수님
+  - Graph Neural Networks for Molecular Property Prediction - GALUX 류성옥 박사님
