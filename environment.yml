@@ -1,19 +1,22 @@
 channels:
+  - nvidia
   - conda-forge
   - defaults
 dependencies:
-  - conda-forge::python=3.9
-  - conda-forge::cudatoolkit=11.1
-  - pytorch-lts::pytorch=1.8
-  - pytorch-lts::torchvision
-  - dglteam::dgl-cuda11.1
+  - conda-forge::python=3.10
+  - nvidia::cuda=11.6
+  - pytorch::pytorch=1.13
+  - pytorch::pytorch-cuda=11.6
+  - pytorch::torchvision
+  - dglteam::dgl-cuda11.6
   - conda-forge::pytdc
   - conda-forge::rdkit
   - conda-forge::openbabel
-  - defaults::numpy
-  - defaults::scipy
-  - defaults::scikit-learn
+  - conda-forge::numpy
+  - conda-forge::scipy
+  - conda-forge::scikit-learn
   - networkx
+  - jupyter
   - matplotlib
   - pandas
   - seaborn
