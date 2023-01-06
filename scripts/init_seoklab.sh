@@ -8,4 +8,3 @@ if [[ ! -d "$script_dir" ]]; then
 fi
 
 "$script_dir/config-ssh.sh"
-"$script_dir/init-jupyter.sh"
