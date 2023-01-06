@@ -93,8 +93,8 @@ There are two options just waiting for your choice:
 
 1. (**Recommended**) Download [vscode](https://code.visualstudio.com) and
    install it. If you're on a Linux-based machine with sudo access, it's not a
-   bad idea to give snap a chance with `$ sudo snap install code`. Once the
-   editor is ready to go, setup these extensions:
+   bad idea to give snap a chance with `$ sudo snap install code --classic`.
+   Once the editor is ready to go, setup these extensions:
 
    - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
    - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
@@ -110,10 +110,6 @@ There are two options just waiting for your choice:
      [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
    - For beautiful (IMO<sup id="a4">[4](#f4)</sup>) color scheme:
      [Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)
-
-   **One extra setting left for lab members**: search vscode settings named
-   `Remote.SSH: Lockfiles in Tmp`, then check it. It is required to use vscode
-   on the compute nodes.
 
 2. Start a jupyter kernel with `$ jupyter notebook` at the project root, open
    the web browser, then connect to
