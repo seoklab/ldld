@@ -11,12 +11,12 @@
   - [Environment _activation_](#environment-activation)
 - [Prerequisites](#prerequisites)
 - [Main Tutorials](#main-tutorials)
-  - [0 &nbsp; Introduction to Deep Learning](#0--introduction-to-deep-learning)
-  - [1 &nbsp; Multilayer Perceptrons (MLP)](#1--multilayer-perceptrons-mlp)
-  - [2 &nbsp; Convolutional Neural Network (CNN)](#2--convolutional-neural-network-cnn)
-  - [3 &nbsp; Recurrent Neural Networks (RNN)](#3--recurrent-neural-networks-rnn)
-  - [4 &nbsp; Transformers](#4--transformers)
-  - [5 &nbsp; Graph Neural Networks (GNN)](#5--graph-neural-networks-gnn)
+  - [0   Introduction to Deep Learning](#0--introduction-to-deep-learning)
+  - [1   Multilayer Perceptrons (MLP)](#1--multilayer-perceptrons-mlp)
+  - [2   Convolutional Neural Network (CNN)](#2--convolutional-neural-network-cnn)
+  - [3   Recurrent Neural Networks (RNN)](#3--recurrent-neural-networks-rnn)
+  - [4   Transformers](#4--transformers)
+  - [5   Graph Neural Networks (GNN)](#5--graph-neural-networks-gnn)
 - [Further Reading](#further-reading)
 - [Comments](#comments)
 
@@ -52,8 +52,21 @@ and remove it or check the packages in the original one against the
 
 Two scripts are provided for:
 
-- **Lab members**: first clone this repo on your **local machine**, and then
-  simply run the following command.
+- **Everyone**: Run this command to install [`conda`](https://conda.io) and
+  setup an _environment_, which will be used throughout this repo. Also don't
+  forget to re-login after running the command. Once the script does its job,
+  you're almost done, at least the "hard" (i.e., terminal) part!
+
+  ```bash
+  ./scripts/bootstrap.sh
+  ```
+
+  **NOTE**: If you're a lab member, then you must run this command on the
+  cluster, not on your local machine.
+
+- **Lab members only** (optional): first clone this repo on your **local
+  machine**, and then simply run the following command. This will update ssh
+  settings for convenience.
 
   > Don't like executing suspicious scripts on your personal computer? Please
   > refer to
@@ -64,19 +77,9 @@ Two scripts are provided for:
   ./scripts/init_seoklab.sh
   ```
 
-  For executing jupyter notebooks on the compute nodes, please ssh into one of
-  the clusters<sup id="a1">[1](#f1)</sup>, then
-  [clone this repo](#cloning-this-repo) again.
-
-- **Individuals**: Run this command to install [`conda`](https://conda.io) and
-  setup an _environment_, which will be used throughout this repo. Once the
-  script does its job, you're almost done, at least the "hard" (i.e., terminal)
-  part!
-
-  ```bash
-  ./scripts/bootstrap.sh
-  source "$HOME/.$(basename "$SHELL")rc"
-  ```
+  For executing jupyter notebooks on the compute nodes, please ssh into the
+  cluster<sup id="a1">[1](#f1)</sup>, then [clone this repo](#cloning-this-repo)
+  again.
 
 #### About conda
 
@@ -136,13 +139,12 @@ dialog for the selection.
 
 - Basic university math, including multivariable calculus.
 - Basic shell commands: refer to the related
-  [lecture](http://seoklab.org/forum/index.php?topic=5657) and a
+  [lecture](https://drive.google.com/drive/folders/1rjDuxl17BgFFWa1MrTUBrElYvXTPJlZH) and a
   [blog post](https://www.44bits.io/ko/post/linux-and-mac-command-line-survival-guide-for-beginner).
 - Python programming: refer to the related
-  [lecture](http://seoklab.org/forum/index.php?topic=5613).
+  [lecture](https://drive.google.com/drive/folders/1rjDuxl17BgFFWa1MrTUBrElYvXTPJlZH).
 
-**NOTE**: Currently, the lectures are only for lab members. Only Korean versions
-are available.
+**NOTE**: Only Korean versions are available.
 
 ## Main Tutorials
 
