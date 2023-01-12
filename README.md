@@ -13,7 +13,7 @@
 - [Main Tutorials](#main-tutorials)
   - [0   Introduction to Deep Learning](#0--introduction-to-deep-learning)
   - [1   Multilayer Perceptrons (MLP)](#1--multilayer-perceptrons-mlp)
-  - [2   Convolutional Neural Network (CNN)](#2--convolutional-neural-network-cnn)
+  - [2   Convolutional Neural Networks (CNN)](#2--convolutional-neural-networks-cnn)
   - [3   Recurrent Neural Networks (RNN)](#3--recurrent-neural-networks-rnn)
   - [4   Transformers](#4--transformers)
   - [5   Graph Neural Networks (GNN)](#5--graph-neural-networks-gnn)
@@ -34,8 +34,10 @@ Open terminal on a UNIX-like system (Linux, macOS, etc.). Then clone this
 repository by:
 
 ```bash
-git clone git@github.com:seoklab/ldld.git
+git clone --recurse-submodules git@github.com:seoklab/ldld.git
 ```
+
+You could safely ignore the submodule related errors if you're not a lab member.
 
 Also, don't forget to change the working directory.
 
@@ -96,8 +98,8 @@ There are two options just waiting for your choice:
 
 1. (**Recommended**) Download [vscode](https://code.visualstudio.com) and
    install it. If you're on a Linux-based machine with sudo access, it's not a
-   bad idea to give snap a chance with `$ sudo snap install code --classic`.
-   Once the editor is ready to go, setup these extensions:
+   bad idea to give snap a try with `$ sudo snap install code --classic`. Once
+   the editor is ready to go, setup these extensions:
 
    - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
    - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
@@ -167,7 +169,7 @@ dialog for the selection.
 - [Handout](handouts/1-mlp.pptx)
 - [Notebook](notebooks/1-mlp.ipynb)
 
-### 2 &nbsp; Convolutional Neural Network (CNN)
+### 2 &nbsp; Convolutional Neural Networks (CNN)
 
 > not to be confused with the prominent American news network.
 
