@@ -18,7 +18,7 @@
   - [4   Transformers](#4--transformers)
   - [5   Graph Neural Networks (GNN)](#5--graph-neural-networks-gnn)
 - [Further Reading](#further-reading)
-- [Comments](#comments)
+- [License and disclaimer](#license-and-disclaimer)
 
 ---
 
@@ -80,17 +80,21 @@ Two scripts are provided for:
   ```
 
   For executing jupyter notebooks on the compute nodes, please ssh into the
-  cluster<sup id="a1">[1](#f1)</sup>, then [clone this repo](#cloning-this-repo)
+  cluster[^1], then [clone this repo](#cloning-this-repo)
   again.
+
+[^1]: Contact to the system administrator if you're not sure what you're doing.
 
 #### About conda
 
 `conda` helps us manage python packages much easier, by creating isolated
-environments<sup id="a2">[2](#f2)</sup> for each project. You'd love it as soon
+environments[^2] for each project. You'd love it as soon
 as you get into the "real world" Python development. One drawback of the package
 manager is that it takes **some** time to download the required packages (at
 least for the first time). Both scripts will take around ~30 minutes to
 complete.
+
+[^2]: An isolated "environment" for specific versions of python and packages.
 
 ### Development setup
 
@@ -105,7 +109,7 @@ There are two options just waiting for your choice:
    - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
    - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
    - [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-     (for remote development<sup id="a3">[3](#f3)</sup>)
+     (for remote development[^3])
 
    and also take a look at these optional but useful extensions:
 
@@ -113,14 +117,19 @@ There are two options just waiting for your choice:
      [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
    - For better editor suggestions:
      [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-   - For beautiful (IMO<sup id="a4">[4](#f4)</sup>) color scheme:
+   - For beautiful (IMO[^4]) color scheme:
      [Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)
 
 2. Start a jupyter kernel with `$ jupyter notebook` at the project root, open
    the web browser, then connect to
-   [`http://localhost:8888`](http://localhost:8888)<sup id="a5">[5](#f5)</sup>.
+   [`http://localhost:8888`](http://localhost:8888)[^5].
    Local port forwarding (`ssh -L8888:localhost:8888`) might be required if the
    jupyter kernel runs on a remote machine.
+
+[^3]: If not sure, consider installing it. It wouldn't hurt!
+[^4]: Abbreviation of _In My Opinion_. Frequently used in developer communities.
+[^5]: `8888` is the default port for jupyter servers. It may depend on
+configuration and current port usage.
 
 ### Environment _activation_
 
@@ -203,27 +212,24 @@ dialog for the selection.
 
 **TBA** <!--  -->
 
-## Comments
-
-<span id="f1">[1](#a1)</span> &nbsp; Contact to the system administrator if
-you're not sure what you're doing.  
-<span id="f2">[2](#a2)</span> &nbsp; An isolated "environment" for specific
-versions of python and packages.  
-<span id="f3">[3](#a3)</span> &nbsp; If not sure, consider installing it. It
-wouldn't hurt!  
-<span id="f4">[4](#a4)</span> &nbsp; Abbreviation of _In My Opinion_. Frequently
-used in developer communities.  
-<span id="f5">[5](#a5)</span> &nbsp; `8888` is the default port for jupyter
-servers. It may depend on configuration and current port usage.
-
----
+## License and disclaimer
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-<img alt="Creative Commons License" style="border-width:0"
-	src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
-This work is licensed under a
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-	Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<img alt="Creative Commons License" style="border-width:0;"
+	src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
+The source code examples used in this project are licensed under the
+[MIT License](LICENSE.txt). Other contents of this repository are licensed under
+the
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Copyright &copy; 2022- Seoul National University Lab of Computational Biology
 and Biomolecular Engineering.
+
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+> SOFTWARE.
