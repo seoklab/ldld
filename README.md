@@ -220,6 +220,10 @@ directories are included:
 - `pyproject.toml` and `setup.cfg`: example project configuration, required for
   *installing* (`pip install [-e] .`) the project.
 
+Along with the `ldld` module, the project also ships a few executables for
+training the models - `ldld-mlp`, `ldld-cnn`, `ldld-rnn`, `ldld-trs`, and
+`ldld-gnn`. You can run them after installing the project.
+
 ## Further Reading
 
 ### Books
