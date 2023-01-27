@@ -19,6 +19,8 @@
   - [5   Graph Neural Networks (GNN)](#5--graph-neural-networks-gnn)
 - [Example project layout](#example-project-layout)
 - [Further Reading](#further-reading)
+  - [Books](#books)
+  - [Journal Articles](#journal-articles)
 - [License and disclaimer](#license-and-disclaimer)
 
 ---
@@ -220,7 +222,38 @@ directories are included:
 
 ## Further Reading
 
-**TBA** <!--  -->
+### Books
+
+- Price, Simon J. D. *Understanding Deep Learning*; MIT Press, 2023.
+  [link](https://udlbook.github.io/udlbook) (preprint)
+
+  > This book has excellent visualizations of trending models. Visualization
+  > is always a key to understanding complex concepts.
+
+### Journal Articles
+
+- Vaswani, A. *et al.* Attention is all you need. _arXiv_, **2017**.
+  [DOI](https://doi.org/10.48550/arXiv.1706.03762)
+
+  > The original paper introducing the Transformer model.
+
+- Kipf, Thomas N. *et al.* Semi-Supervised Classification with Graph
+  Convolutional Networks. _arXiv_, 2017.
+  [DOI](https://doi.org/10.48550/arXiv.1609.02907)
+
+  > The original paper introducing the Graph Convolutional Network (GCN) model.
+
+- Veličković, Petar *et al.* Graph Attention Networks. _arXiv_, **2018**.
+  [DOI](https://doi.org/10.48550/arXiv.1710.10903)
+
+  > The original paper introducing the Graph Attention Network (GAT) model.
+
+- Shi, Yunsheng *et al.* Masked Label Prediction: Unified Message Passing Model
+  for Semi-Supervised Classification. _arXiv_, **2020**.
+  [DOI](https://doi.org/10.48550/arXiv.2009.03509)
+
+  > The paper introducing the graph transformer model we've impelmented in the
+  > lecture.
 
 ## License and disclaimer
 
