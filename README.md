@@ -17,6 +17,7 @@
   - [3   Recurrent Neural Networks (RNN)](#3--recurrent-neural-networks-rnn)
   - [4   Transformers](#4--transformers)
   - [5   Graph Neural Networks (GNN)](#5--graph-neural-networks-gnn)
+- [Example project layout](#example-project-layout)
 - [Further Reading](#further-reading)
 - [License and disclaimer](#license-and-disclaimer)
 
@@ -207,6 +208,15 @@ dialog for the selection.
 
 - [Handout](handouts/5-gnn.pptx)
 - [Notebook](notebooks/5-gnn.ipynb)
+
+## Example project layout
+
+This repository also serves as an example project layout. The following
+directories are included:
+
+- `src/`: example source code layout for model, dataset, training, and utilities.
+- `pyproject.toml` and `setup.cfg`: example project configuration, required for
+  *installing* (`pip install [-e] .`) the project.
 
 ## Further Reading
 
