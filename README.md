@@ -37,10 +37,8 @@ Open terminal on a UNIX-like system (Linux, macOS, etc.). Then clone this
 repository by:
 
 ```bash
-git clone --recurse-submodules git@github.com:seoklab/ldld.git
+git clone git@github.com:seoklab/ldld.git
 ```
-
-You could safely ignore the submodule related errors if you're not a lab member.
 
 Also, don't forget to change the working directory.
 
@@ -69,22 +67,24 @@ Two scripts are provided for:
   **NOTE**: If you're a lab member, then you must run this command on the
   cluster, not on your local machine.
 
-- **Lab members only** (optional): first clone this repo on your **local
-  machine**, and then simply run the following command. This will update ssh
-  settings for convenience.
-
-  > Don't like executing suspicious scripts on your personal computer? Please
-  > refer to
-  > [the preface](https://github.com/seoklab/ldld-internal/blob/main/docs/before_starting.md)
-  > for details.
-
-  ```bash
-  ./scripts/init_seoklab.sh
-  ```
+- **Lab members only** (optional): first setup the ssh configurations (see
+  [init-remote.sh](https://github.com/seoklab/shared-utils/blob/main/scripts/init-remote.sh)).
 
   For executing jupyter notebooks on the compute nodes, please ssh into the
-  cluster[^1], then [clone this repo](#cloning-this-repo)
-  again.
+  cluster[^1], then [clone this repo](#cloning-this-repo). Once the repo is
+  cloned, run the following command:
+
+  ```bash
+  ./scripts/start-jupyter.sh [nodename]
+  ```
+
+  It submits a slurm job to start a jupyter server on a gpu compute node. The
+  script will then reveal the URL to access the jupyter server on your terminal.
+  Remember the one starting with `http://172.23`, which will be used later for
+  VSCode jupyter remote kernel connection.
+
+  To use the started jupyter server from your VSCode jupyter extension, follow
+  this [guide](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_connect-to-a-remote-jupyter-server).
 
 [^1]: Contact to the system administrator if you're not sure what you're doing.
 
