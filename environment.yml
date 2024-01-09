@@ -1,7 +1,6 @@
 channels:
   - nvidia
   - conda-forge
-  - defaults
 dependencies:
   - conda-forge::python=3.10
   - nvidia::cuda=11.6
