@@ -47,8 +47,8 @@ set -euo pipefail
 if conda env list | grep -Eq "^ldld\b"; then
 	echo "ldld is already installed. Skipping."
 else
-	conda update -yq conda -n base
-	conda env create -f "$(dirname "$0")/../environment.yml" \
+	mamba update -yq conda -n base
+	mamba env create -f "$(dirname "$0")/../environment.yml" \
 		-n ldld --no-default-packages
 
 	cat >>"${CONDA_PREFIX}/envs/ldld/.condarc" <<-EOM
@@ -57,7 +57,6 @@ else
 		  - dglteam
 		  - pytorch
 		  - conda-forge
-		  - defaults
 	EOM
 
 	cat >>"${CONDA_PREFIX}/envs/ldld/conda-meta/pinned" <<-EOM
